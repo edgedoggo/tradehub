@@ -1,0 +1,26 @@
+{
+  "name": "tradehub",
+  "id":"tradehub",
+  "title": "TradeHub Marketplace",
+  "description": "A Foundry VTT module for managing a dynamic TradeHub Marketplace, including buying, selling, and shipyard interactions. This module enhances in-game trading experiences by providing a UI for browsing trade goods, interacting with shipyards, and managing cargo.",
+  "version": "0.0.1",
+  "author": "knoself",
+  "minimumCoreVersion": "0.8.0",
+  "compatibleCoreVersion": "11",
+  "esmodules": [
+    "scripts/buygoods.js",
+    "scripts/sellcargo.js",
+    "scripts/docking.js",
+    "scripts/shipyard.js",
+    "scripts/repair.js",
+    "scripts/restock.js",
+	"scripts/splash.js"
+  ],
+
+  "styles": [
+    "styles/style.css"
+  ],
+  "socket": true,
+  "manifest": "https://github.com/edgedoggo/tradehub/releases/download/latest/module.json",
+  "download": "https://github.com/edgedoggo/tradehub/releases/download/latest/tradehub.zip"
+}
